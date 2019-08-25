@@ -1,4 +1,5 @@
 import random
+import sys
 random.seed(100)
 
 life_expectency = 77.45         # poland's off wiki.
@@ -38,6 +39,7 @@ def print_stats(
             len(females) + len(males)
         )
     )
+    sys.stdout.flush()
 
 # creating initial humans
 initial_population_females = int(
