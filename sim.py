@@ -7,7 +7,7 @@ firtility_rate = 1.36           # poland's off wiki.
 initial_population = 38420687   # poland's off wiki.
 male_female_ratio = 0.94        # poland's off wiki.
 birth_age = 25                  # i made it up.
-years = 1000                    # i made it up.
+years = 1500                    # i made it up.
 
 def magic_coin(bias):
         coin = random.random()
